@@ -1,0 +1,74 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vnetDeploymentOption":{
+        "value": "new"
+      },
+      "existingVnetResourceGroupName":{
+        "value": "existingVnetResourceGroupName"
+      },
+      "existingVnetName":{
+        "value": "existingVnetName"
+      },
+      "existingSubnetName":{
+        "value": "existingSubnetName"
+      },
+      "environment":{
+        "value": "DEV"
+      },
+      "projectPrefix":{
+        "value": "VBR365v7"
+      },
+      "index":{
+        "value": 1
+      },
+      "vnetAddress":{
+        "value": "10.0.0.0/22"
+      },
+      "snet1Address":{
+        "value": "10.0.1.0/24"
+      },
+      "PublicIPallocation":{
+      "value": "Static"
+      },
+      "PublicIPsku":{
+      "value": "Basic"
+    },
+      "imagePublisher":{
+      "value": "veeam"
+    },
+      "imageOffer":{
+      "value": "office365backup"
+    },
+      "imageSKU":{
+      "value": "veeamoffice365backupv7"
+    },
+      "imageVersion":{
+      "value": "latest"
+    },
+      "vmSize":{
+      "value": "Standard_B2s"
+    },
+      "osDiskType":{
+      "value": "Standard_LRS"
+    },
+    "dataDiskType":{
+      "value": "Standard_LRS"
+    },
+    "dataDiskSize":{
+      "value": 32
+    },
+    "computerName":{
+      "value": "Veeam365-01"
+    },
+    "adminUsername":{
+      "value": "adminuser"
+    },
+    "adminPassword":{
+      "value": "@dminPassword123"
+    }
+    }
+  }
+  
+  
